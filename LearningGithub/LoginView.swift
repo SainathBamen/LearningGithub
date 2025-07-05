@@ -17,6 +17,7 @@ struct LoginView: View {
             
             TextField("Name", text: $textField1)
             TextField("Email", text: $textField2)
+            Spacer()
 
         }
         .padding()
